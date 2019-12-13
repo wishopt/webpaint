@@ -1,0 +1,37 @@
+#container {
+    display:grid;
+    margin: 20px auto auto auto;
+    height: 80vh;
+    width: 80vh;
+}
+
+.pixel {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #cccccc;
+}
+
+header {
+    background-color: rgb(206, 128, 50);
+    margin: 0;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    margin: auto;
+    width: 80vh;
+}
+
+p {
+        margin: auto;
+        width: 80vh;
+}
+
+.gridSize {
+    margin: 20px auto;
+    width: 80vh;
+}
