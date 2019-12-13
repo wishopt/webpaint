@@ -1,6 +1,6 @@
 #container {
     display:grid;
-    margin: 20px auto auto auto;
+    margin: 10px auto auto auto;
     height: 80vh;
     width: 80vh;
 }
@@ -11,11 +11,11 @@
 
 body {
     margin: 0;
-    background-color: #cccccc;
+    background-image: url(background.png);
 }
 
 header {
-    background-color: rgb(206, 128, 50);
+    background-image: linear-gradient(rgb(77, 94, 255), rgb(150, 131, 255));
     margin: 0;
     padding: 20px 0 20px 0;
     border-bottom: 1px solid black;
@@ -32,6 +32,8 @@ p {
 }
 
 .gridSize {
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 20px 10px;
     width: 80vh;
+    background-color: rgba(0, 0, 0, 0.541);
 }
